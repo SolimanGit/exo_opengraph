@@ -38,14 +38,14 @@
 <body>
 
     <main>
-      <article>
+      <article itemscope itemtype="https://schema.org/Article">
         
           <header>
             <div id="img-article" role="img" aria-label="Image of Oogway with a wooden stick">
 			</div>
-            <a href="https://medium.com/swlh/finding-your-oogway-ce52ddab6b9d" title="Article title" target="_blank"><h1>Finding your Oogway</h1></a>
+            <a href="https://medium.com/swlh/finding-your-oogway-ce52ddab6b9d" title="Article title" target="_blank"><h1 itemprop="headline">Finding your Oogway</h1></a>
             <p class="author">Written by <span class="author-name" role="text" aria-label="The author's name">Tarun Kohli</span></p>
-            <p class="date"><time datetime="2018-08-08">14/03/2018</time> | <a href="#_comments">12 Comments</a></p>
+            <p class="date"><time datetime="2018-08-08" itemprop="datePublished">14/03/2018</time> | <a href="#_comments" itemprop="commentCount">12 Comments</a></p>
           </header>
 
           <p class="txt-courant">I had fits of laughter watching the big fat Panda struggle to keep up with his accidental ‘Dragon Warrior’ title but I still remember something extraordinary from the movie. <br>
@@ -56,16 +56,16 @@
             I remember the scene when Po is rejected by Master Shifu and mocked by Furious Five. With his self-confidence shattered, he decides to quit and tell Master Oogway about it just when from the thin air, Oogway appears and says-</p>
 
 
-          <figure>
+          <figure itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
             <a href="#" title="logo">
-                <img src="img/img1.jpg" alt="Po et Oogway" />
+                <img src="img/img1.jpg" alt="Po et Oogway" itemprop="url"/>
             </a>
-            <figcaption>Image from the movie "Kung Fu Panda"</figcaption>
+            <figcaption itemprop="about">Image from the movie "Kung Fu Panda"</figcaption>
           </figure>
 
           <div class="special-element" role="doc-pullquote" aria-label="Quote from the movie">
             <blockquote>
-              <p>  ‘‘You are too concerned with what was and what will be. There's a saying: "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the "present".’’</p>
+              <p itemprop="citation">  ‘‘You are too concerned with what was and what will be. There's a saying: "Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the "present".’’</p>
               <cite>Quote from <span class="author-name" role="text" aria-label="The author' of the quote'">the movie</span></cite>
             </blockquote>
           </div>
@@ -93,9 +93,9 @@
             <br><br>I hope you are ready and your Oogway appears. And whispers in your ears-
           </p>
 
-          <figure>
-            <a href="#" title="logo"><img src="img/img2.jpg" alt="Oogway"></a>
-            <figcaption>Image from the movie "Kung Fu Panda"</figcaption>
+          <figure itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+            <a href="#" title="logo"><img src="img/img2.jpg" alt="Oogway" itemprop="url"></a>
+            <figcaption itemprop="about">Image from the movie "Kung Fu Panda"</figcaption>
           </figure>
 
           <div class="special-element" role="doc-pullquote" aria-label="Quote from the movie">
@@ -107,7 +107,7 @@
           </div>
 
 
-          <div id="tags" role="directory" aria-label="List of keywords">
+          <div id="tags" role="directory" aria-label="List of keywords" itemprop="keywords">
             <a href="#">
               <div class="article-tag" role="text" aria-label="First keyword">Mentorship</div>
             </a>
@@ -129,15 +129,15 @@
 
           <section id="comments">
 
-            <div class="comments-container" role="list" aria-label="A list of comment">
+            <div class="comments-container" role="list" aria-label="A list of comment" itemscope itemprop="comment" itemtype="https://schema.org/Comment">
 
               <div class="comment" role="listitem" aria-label="Item comment">
                 <div class="author-commentimg" role="figure" aria-label="Image of the author">
-                  <img src="img/author1.png" alt="Jane Doe">
+                  <img src="img/author1.png" alt="Jane Doe" itemprop="url">
                 </div>
                 <div class="comment-description" role="article" aria-label="A comment">
-                  <p class="comments-author">Shalvika Sood</p>
-                  <p class="date"><time datetime="2018-03-14">August 8, 2018</time> | <a href="#_comments">6:35 pm</a></p>
+                  <p class="comments-author" itemprop="author">Shalvika Sood</p>
+                  <p class="date" itemprop="dateCreated"><time datetime="2018-03-14">August 8, 2018</time> | <a href="#_comments">6:35 pm</a></p>
                   <p class="comment-content">Very well said Tarun! Love the Oogway analogy. Thanks for the pointers — A mentor is easily one of the most important people in ones life and finding the right person is a combination of a lot of hard work with intent on the part of the student and some degree of luck :)..or maybe in this case, luck favors those who strive! I like how you end with ‘You must believe’ because it all comes down to that.</p>
                 </div>
                 <div class="comment-separator" role="separator" aria-hidden="true"></div>
